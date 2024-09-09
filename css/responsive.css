@@ -1,16 +1,17 @@
 @media (max-width: 1024px) {
   .hamburger svg {
     display: inline-block;
+    height: 1.9rem;
   }
 
   .header .nav {
     position: absolute;
     top: 100%;
     right: -100%;
-    width: 35%;
+    width: 17rem;
     height: 100vh;
     background-color: white;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s;
   }
 
   .nav ul {
@@ -30,6 +31,18 @@
 
   .nav.active {
     right: 0;
+  }
+
+  .logo-name a {
+    font-size: clamp(1.3rem, 4vw, 2rem);
+  }
+
+  .logo img {
+    height: clamp(2rem, 4vw, 3rem);
+  }
+
+  .hb-resume button {
+    padding: 6px;
   }
 
   /* hero */
