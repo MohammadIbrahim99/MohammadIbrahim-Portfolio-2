@@ -9,6 +9,7 @@ body {
   background-color: var(--color1);
   color: black;
   max-width: 100%;
+  min-width: 768px;
   overflow-x: hidden;
 }
 
@@ -30,7 +31,7 @@ section .header {
   padding: 10px 20px;
   position: relative;
   background-color: var(--color2);
-  box-shadow: 5px 2px 2px rgb(0, 0, 0, 0.4);
+  box-shadow: -2px 3px 3px rgb(0, 0, 0, 0.4);
   z-index: 9999;
 }
 
@@ -43,7 +44,7 @@ section .header {
 .logo img {
   height: 45px;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
 }
 
 .logo-name a {
