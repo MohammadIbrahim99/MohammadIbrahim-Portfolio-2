@@ -52,8 +52,10 @@
   #hero {
     height: 100vh;
     grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.2fr;
     grid-template-areas: "hero-img" "hero-name";
     text-align: center;
+    margin: 0 auto;
   }
 
   .hero-name {
@@ -63,7 +65,6 @@
   .hero-img img {
     max-width: 80%;
     height: 30rem;
-    margin: 0 auto;
   }
 
   .hero-name h1 {
