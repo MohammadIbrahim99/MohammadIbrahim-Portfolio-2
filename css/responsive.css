@@ -63,19 +63,19 @@
   .hamburger-menu.active span:nth-child(1) {
     top: 63%;
     height: 3.5px;
-    transform: translate(-40%, -400%) rotate(47deg);
+    transform: translate(-45%, -400%) rotate(45deg);
   }
 
   .hamburger-menu.active span:nth-child(2) {
     height: 3.5px;
-    width: 2rem;
-    transform: translate(-62%, -60%) rotate(-45deg);
+    width: 1.9rem;
+    transform: translate(-70%, -50%) rotate(-45deg);
   }
 
   .hamburger-menu.active span:nth-child(3) {
     top: 58%;
     height: 3.5px;
-    transform: translate(-86%, 10%) rotate(45deg);
+    transform: translate(-97%, -30%) rotate(45deg);
   }
 
   .nav.active {
