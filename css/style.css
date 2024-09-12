@@ -28,10 +28,10 @@ section .header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  position: relative;
   background-color: var(--color2);
   box-shadow: -2px 3px 3px rgb(0, 0, 0, 0.4);
-  z-index: 9999;
+  z-index: 9;
+  position: relative;
 }
 
 .logo {
@@ -82,10 +82,10 @@ section .header {
   gap: 1rem;
 }
 
-.hamburger svg {
+/* .hamburger svg {
   height: 35px;
   display: none;
-}
+} */
 
 .hb-resume li {
   list-style-type: none;
