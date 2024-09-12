@@ -94,11 +94,11 @@ section .header {
 .hb-resume button {
   padding: 10px;
   border-radius: 7px;
-  background-color: white;
+  background-color: var(--color1);
 }
 
 .hb-resume button:hover {
-  background-color: #ddd;
+  background-color: var(--color2);
   cursor: pointer;
 }
 
